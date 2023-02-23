@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 300vh;
+    background-color: #fafafa;
+    display: flex;
+    gap: 280px;
+}
+.nav{
+    border-right: 1px solid #a6a6a6;
+    background-color: #fff;
+    width: 70px;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+}
+.logo{
+    font-size: 30px;
+}
+.option{
+    padding-top: 35px;
+}
+ul{
+    padding-top: 40px;
+}
+li{
+    padding-top: 23px;
+}    
+.icon{
+    font-size: 25px;
+    padding: 20px;
+}
+.one{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+.story{
+    height: 115px;
+    width: 535px;
+    background-color: #fff;
+    border-radius: 9px;
+    border-color: 1px solid#a6a6a6;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    gap:10px;
+}
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+span{
+    padding-top: 0;
+}
+.profile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgb(255,230,0),rgb(255,0,128)80%);
+    overflow: hidden;
+    padding: 3px;
+}
+.profile img{
+    border-radius: 50%;
+    border: 2px solid#fff;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.post{
+    width: 535px;
+    height: 920px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.ishu{
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    gap: 15px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sha{
+    padding-top: 6px;
+}
+.sha:hover{
+    color: #383636;
+}
+.duwal{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bold{
+    font-size: 15px;
+    font-weight: bold;
+}
+.more{
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+.more:hover{
+    color: #383636;
+}
+.feed{
+    padding-top: 0;
+}
+.fee{
+    width: 535px;
+    height: 650px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.react{
+    display: flex;
+    justify-content: space-between;
+}
+.baine{
+    display: flex;
+    gap: 20px;
+}
+.react>div{
+    font-size: 22px;
+    padding-left: 10px;
+    gap: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.like{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.size{
+    font-size: 15px;
+    font-weight: bold;
+}
+.likes{
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+}
+.caption{
+    display: flex;
+    gap: 10px;
+}
+.plus{
+    font-size: 15px;
+    font-weight: bold;
+}
+.jpt{
+    font-size: 15px;
+}
+.caption>a{
+    font-size: 15px;
+    color: #000;
+    padding-left: 10px;
+}
+.comment{
+    padding-left: 10px;
+}
+hr{
+    color: #d8cdcd;
+}
+.cmt{
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.emj{
+    font-size: 30px;
+}
+.edit{
+    height: 30px;
+    width: 400px;
+    border: none;
+    outline: none;
+    color: #a6a6a6;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.blue{
+    padding-top: 10px;
+}
+.blu{
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+}
+.caught{
+    height: 220px;
+    width: 535px;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.right{
+    padding-top: 80px;
+    height: 555px;
+    width: 350px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+}
+.mai{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.click{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ok{
+    display: flex;
+    gap: 120px;
+}
+.ok>div{
+    padding-left: 10px;
+}
+.switch{
+    font-size: 14px;
+    font-weight: bold;
+    color: #24a4f7;
+    padding-right: 10px;
+}
+.swc{
+    padding-top: 20px;
+}
+.switch:hover{
+    color: #000;
+}
+.suggest{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sug{
+    font-weight: bold;
+    color: #a6a6a6;
+}
+.see{
+    font-weight: bold;
+}
+.see:hover{
+    color: #a6a6a6;
+}
+.account{
+    display: flex;
+    padding: 5px;
+}
+.pp{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.id{
+    padding-left: 10px;
+}
+.info{
+    padding-left: 10px;
+    padding-top: 0;
+}
+.toxic{
+    font-size: 15px;
+    font-weight: bold;
+}
+.add{
+    font-size: 13px;
+}
+.flw{
+    font-size: 14px;
+    font-weight: bold;
+    color: #24a4f7;
+}
+.flw:hover{
+    color: #000;
+}
+.feri{
+    display: flex;
+    gap: 63px;
+}
+.links{
+    padding-left: 10px;
+}
+.links>a{
+    color: #a6a6a6;
+}
+.insta{
+    padding-left: 10px;
+}
+.insta>p{
+    color: #a6a6a6;
+}
+@media(max-width:900px){
+    .right{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .nav{
+        display: none;
+    }
+}
+@media(max-width:750px){
+    body{
+        gap:0;
+        padding: 20px;
+    }
+    .center{
+        width: 100%;
+    }
+}
